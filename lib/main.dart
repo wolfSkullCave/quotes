@@ -21,6 +21,12 @@ class _QuoteListState extends State<QuoteList> {
     Quote(author: 'darth vader', text: 'I am your father'),
   ];
 
+  Widget quoteTemplate(quote){
+    return Card(
+
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
