@@ -21,6 +21,7 @@ class _QuoteListState extends State<QuoteList> {
     Quote(author: 'darth vader', text: 'I am your father'),
   ];
 
+  // add card here
   Widget quoteTemplate(quote){
     return Card(
 
